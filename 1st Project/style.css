@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    background-image: url("bball bg.jpeg");
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.433);
+    padding: 20px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 20px;
+  }
+  
+  .quick-breakdown {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .quick-breakdown img {
+    width: 80px;
+    margin-right: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .kick-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .kick-section .text {
+    flex: 2;
+    border: 1px solid #1c174e;
+    padding: 15px;
+  }
+  
+  .kick-section .image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .kick-section .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .history {
+    border: 1px solid #000;
+    padding: 15px;
+  }
+
+  /* Layout for sections with alternating image positions */
+.section-with-image {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  /* Image on the left (default) */
+  .section-with-image.image-left {
+    flex-direction: row;
+  }
+  
+  /* Image on the right */
+  .section-with-image.image-right {
+    flex-direction: row-reverse;
+  }
+  
+  .section-with-image .text {
+    flex: 2;
+    border: 1px solid #0b0b0b;
+    padding: 15px;
+  }
+  
+  .section-with-image .image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .section-with-image .image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+  
+  

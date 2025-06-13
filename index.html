@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    
+</head>
+<body>
+    <!-- ==========header-section=========> -->
+    <header class="navbar glass">
+        <div class="logo">🚀 Portfolio</div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#hero">Home</a>
+            <a href="#projects">My Projects</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact Me</a>
+            <button id="themeToggle">🌓</button>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+    <!-- ===============hero-section=========> -->
+    <section class="hero-section" id="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Gabriel</span></h1>
+            <h2><span id="typing"></span></h2>
+            <p>i craft a full stack web applications with modern technologies and clean code.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    <!-- ==========projects-section=========> -->
+    <section class="projects-section" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="images/Bball InfoG.png" alt="My project 1">
+                <div class="project-info">
+                    <h3>First Project</h3>
+                    <p>A sport infographic that focuses on informations about basketball.</p>
+                    <div class="project-links">
+                        <a href="/Users/jea/Desktop/VARONA_FINALSPROJECT/1st Project/homepage.html" class="btn btn-outline" target="_blank" rel="noopener">Live Demo</a>
+                        <a href="#" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/RegistrationForm.png" alt="My project 2">
+                <div class="project-info">
+                    <h3>Second Project</h3>
+                    <p>Just a simple and basic registration form.</p>
+                    <div class="project-links">
+                        <a href="/Users/jea/Desktop/VARONA_FINALSPROJECT/2nd Project/index.html" class="btn btn-outline" target="_blank" rel="noopener">Live Demo</a>
+                        <a href="#" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/shift and drift1.png" alt="My project 3">
+                <div class="project-info">
+                    <h3>Third Project</h3>
+                    <p>Speed into action! Register with my Cars 3 inspired form.</p>
+                    <div class="project-links">
+                        <a href="/Users/jea/Desktop/VARONA_FINALSPROJECT/3rd Project/WebApp.html" class="btn btn-outline" target="_blank" rel="noopener">Live Demo</a>
+                        <a href="#" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============about-section==========> -->
+    <section class="about-section" id="about">
+        <h1 class="sectio-title">About Me</h1>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Hello! I'm <span class="highlight">Gabriel Varona</span>, a passionate fullstack developer with experience building
+                    dynamic and responsive web applications. I am specialize in JavaScript, HTML, CSS, Java, Python and modern web
+                    technologies to create efficient and scalable solutions. 
+                </p>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="about-image">
+                <img src="images/IMG_4274 2.jpeg" alt="my about image">
+            </div>
+        </div>
+    </section>
+    <!-- ============contact-section===========> -->
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactform" novalidate>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="email" name="name" id="name" placeholder="Your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Email</label>
+                    <input type="email" name="email" id="name" placeholder="Your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea type="email" name="message" id="message" rows="5" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+                <p class="form-status" id="formStatus"></p>
+            </form>
+
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <p><strong>Email:</strong> <a href="gabrielvarona06@gmail.com">gabrielvarona06@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="Phone No.: 09608326569">09608326569</a></p>
+                <p><strong>Location:</strong> Philippines</p>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="Facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

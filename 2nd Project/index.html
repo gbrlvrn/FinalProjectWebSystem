@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="new.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    
+    <form id="registrationForm">
+      <h2 style= "color: #000000;"> FILL THIS UP TO REGISTER!</h2> 
+
+      <div class="form-group">
+        <label for="fullName">ENTER FULL NAME:</label>
+        <input type="text" id="fullName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">PASSWORD:</label>
+        <input type="password" id="password" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">CONTACT NUMBER:</label>
+        <input type="number" id="phone" required>
+      </div>
+
+      <div class="form-group">
+    
+        <div class="gender-options">
+        <label for="gender">SELECT GENDER:</label>
+          <label><input type="radio" name="gender" value="Male" required> MALE</label>
+          <label><input type="radio" name="gender" value="Female" required> FEMALE</label>
+        </div>
+      </div>
+         
+      <div class="form-group">
+        <label for="dob">BIRTHDATE:</label>
+        <input type="date" id="dob" required>
+      </div>
+
+      <div class="form-group">
+        <label for="course">PROGRAM:</label>
+        <select id="course" required>
+          <option value="Choose Program"></option>
+          <option value="Medical Technology">Medical Technology</option>
+          <option value="Accountancy">Accountancy</option>
+          <option value="Marketing Managemnent">Marketing Managemnent</option>
+          <option value="Dentistry">Dentistry</option>
+          <option value="Information Technology">Information Technology</option>
+          <option value="Optometry">Optometry</option>
+          <option value="Nursing">Nursing</option>
+          <option value="Criminology">Criminology</option>
+          <option value="Architecture">Architecture</option>
+          <option value="Psychology">Psychology</option>
+          <option value="Tourism">Tourism</option>
+          <option value="Engineering">Engineering</option>
+          <option value="Nursing">Nursing</option>
+        </select>
+      </div>
+
+      <div class="form-group checkbox">
+        <input type="checkbox" id="terms" required>
+        <label for="terms">ACCEPT TERMS AND CONDITIONS</label>
+      </div>
+
+      <button type="submit">REGISTER NOW</button>
+    </form>
+
+    
+    <div id="userInfo" class="display-form">
+      <h2 style= "color: #000000;">USER'S DATA</h2>
+      <ul id="userDataList"></ul>
+    </div>
+  </div>
+
+</body>
+</html>
